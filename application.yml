@@ -7,6 +7,11 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
 
+# JWT Mapping keys
+jwt:
+  secret: your_jwt_secret
+  expiration: 1800000
+
 management:
   endpoints:
     web:
